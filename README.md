@@ -23,16 +23,4 @@ Creating REST APIs
 
 Rapid application development (RAD)
 
-🧠 Example CakePHP Controller Code
-<?php
-namespace App\Controller;
-
-use App\Controller\AppController;
-
-class UsersController extends AppController {
-    public function index() {
-        $users = $this->Users->find('all');
-        $this->set('users', $users);
-    }
-}
-?>
+ 
